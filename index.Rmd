@@ -3,11 +3,7 @@ title: "A Minimal Book Example"
 author: "Yihui Xie"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
-#output: bookdown::gitbook
-output:
-  pdf_document:
-    includes:
-      before_body: before_body.tex #from original post
+output: bookdown::gitbook
 documentclass: book
 bibliography: [book.bib, packages.bib]
 biblio-style: apalike
